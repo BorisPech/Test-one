@@ -10,6 +10,12 @@
     margin: auto;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
 .navbar {
     background-color: #F6F8FC;
 }
@@ -182,13 +188,13 @@
 }
 
 .information .infor .infor-item .margin-left h1 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: black;
 }
 
 .information .infor .infor-item .margin-left .infor-link {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     text-decoration: none;
     color: #444746;
