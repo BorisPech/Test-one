@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 428px;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #F6F8FC;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.navbar .justify-content-between {
+    justify-content: space-between;
+}
+
+.navbar .align-items {
+    align-items: center;
+    height: 80px;
+}
+
+.navbar .gap {
+    gap: 10px;
+}
+
+.navbar .bars .nav-bars {
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+    color: #000000;
+    display: flex;
+    margin-top: -2px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid #00000000;
+}
+
+.navbar .navbar-brand img {
+    width: 120px;
+}
+
+.navbar .navbar-nav {
+    list-style-type: none;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    width: 60px;
+    height: 60px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 30px;
+    text-decoration: none;
+    border: 3px solid #00000069;
+}
+
+.hero-banner {
+    height: 846px;
+}
+
+.hero-banner .row .col-12 .card {
+    width: 400px;
+    height: 810px;
+    background-color: #E9EEF6;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin-left: 14px;
+}
+
+.hero-banner .row .col-12 .card .email-top {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.hero-banner .row .col-12 .card .image-profile {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-banner .row .col-12 .card .image-profile img {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid #00000040;
+}
+
+.hero-banner .row .col-12 .card .title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero-banner .row .col-12 .card .manage-account {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.hero-banner .row .col-12 .card .manage-account .manage-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 2px solid #00000040;
+    border-radius: 24px;
+    display: inline-block;
+}
+
+.hero-banner .row .col-12 .card .information {
+    margin-top: 20px;
+}
+
+.hero-banner .row .col-12 .card .information .infor {
+    list-style-type: none;
+}
+
+.information .border-radius {
+    border-radius: 20px;
+    width: 350px;
+    height: 496px;
+    margin-left: 25px;
+    overflow: hidden;
+}
+
+.border-radius-bottom {
+    border-radius: 0 0 20px 20px;
+}
+
+.information .infor .overflow-scroll {
+    overflow-y: scroll;
+    width: 500px;
+    height: 496px;
+}
+
+.information .infor .d-flex-js-sp-between {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0 0;
+}
+
+.information .infor .infor-item {
+    margin-top: 2px;
+    width: 350px;
+    height: 60px;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    background-color: #F8FAFD;
+}
+
+.information .infor .infor-item .infor-p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.information .infor .infor-item .ico-email img {
+    width: 35px;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+
+.information .infor .infor-item .margin-left {
+    margin-left: 10px;
+}
+
+.information .infor .infor-item .margin-left h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.information .infor .infor-item .margin-left .infor-link {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #444746;
+}
+
+.policy {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.policy .policy-link {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #444746;
+}
